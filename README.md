@@ -15,3 +15,13 @@ Add `settings` to your dependencies section in `kanso.json`.
 ```
 
 Run `kanso install` to fetch the package.
+
+
+### Changes log
+
+Jul 19, 2017
+
+0.16 
+
+  - ⚠ Security fix where private data could potentially be included in a ddoc (couchapp). [#3](https://github.com/kanso/settings/issues/3)
+
